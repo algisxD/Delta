@@ -1,0 +1,2 @@
+# Delta
+kuriama kalba Delta
