@@ -1,0 +1,17 @@
+# This is a very useful piece of software
+
+func oopify(prefix) -> prefix + "oop"
+
+func join(elements, separator)
+	var result = ""
+	var len = LEN(elements)
+
+	for i = 0 to len then
+		var result = result + elements/i
+		if i != len - 1 then var result = result + separator
+	end
+
+	return result
+end
+
+PRINT("Hello! :) Greetings universe! :D")
